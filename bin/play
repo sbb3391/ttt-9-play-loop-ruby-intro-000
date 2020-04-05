@@ -4,4 +4,4 @@ require_relative "../lib/play"
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-won?(WIN_COMBINATIONS)
+won?

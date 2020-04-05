@@ -16,7 +16,7 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 
-def won?(board)
+def won?(WIN_COMBINATIONS)
   WIN_COMBINATIONS.each do |i|
   end
 end

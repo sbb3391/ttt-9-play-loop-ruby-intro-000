@@ -18,5 +18,6 @@ WIN_COMBINATIONS = [
 
 def won?(WIN_COMBINATIONS)
   WIN_COMBINATIONS.each do |i|
+    puts i
   end
 end

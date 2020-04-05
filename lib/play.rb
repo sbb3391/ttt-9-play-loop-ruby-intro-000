@@ -23,3 +23,4 @@ WIN_COMBINATIONS.each do |win_combination|
  if !position_taken?(board,win_combination)
  end
  end
+ end

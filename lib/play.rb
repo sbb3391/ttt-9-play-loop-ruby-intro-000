@@ -18,7 +18,7 @@ WIN_COMBINATIONS = [
 
 def won?
   WIN_COMBINATIONS.each do |i|
-    if i == 0 || i == 1
+    if i = 0 || i = 1
       puts i
     end
   end

@@ -25,9 +25,3 @@ def won?(board)
       end
     end
   end
-
-  def won?(board)
-    WIN_COMBINATIONS.each do |i|
-      puts i
-    end
-    end

@@ -28,7 +28,7 @@ winners = [
 ]
 
 def won?
-winners.each do |win|
+WIN_COMBINATIONS.each do |win|
  if !position_taken?(board,win)
    puts win
  else

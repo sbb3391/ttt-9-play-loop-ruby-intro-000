@@ -17,7 +17,7 @@ WIN_COMBINATIONS = [
 ]
 
 
-def won?
+def won?(board)
 WIN_COMBINATIONS.each do |win_combination|
   puts win_combination
  if !position_taken?(board,win_combination)
